@@ -21,9 +21,6 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <About />
-      <Team />
-      <Contact />
       <Footer />
     </Router>
   );
