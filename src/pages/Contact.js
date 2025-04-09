@@ -22,12 +22,20 @@
 import React, { useState } from "react";
 import { FaYoutube, FaInstagram, FaWhatsapp, FaEnvelope, FaLinkedin, FaMedium } from "react-icons/fa";
 import { IoCheckmarkCircleOutline } from "react-icons/io5"; // Success Icon
+import { motion } from "framer-motion";
+import { useEffect } from "react";
+
 
 
 import emailjs from "emailjs-com"; // Import EmailJS
 
 
 const Contact = () => {
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo(0, 0);
+  }, []);
+
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
     user_name: "",
@@ -48,10 +56,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_xxx", // Replace with your EmailJS Service ID
-        "template_xxx", // Replace with your EmailJS Template ID
+        "service_lwbwatm", // Replace with your EmailJS Service ID
+        "template_dl9akvp", // Replace with your EmailJS Template ID
         e.target,
-        "user_xxx" // Replace with your EmailJS Public Key
+        "86KMi8jOVZRH3m5Dg" // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {
@@ -68,7 +76,10 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="min-h-screen bg-[#0B0C10] text-white p-8 flex flex-col justify-between pt-20">
+      {/* <div className="min-h-screen bg-[#0B0C10] text-white px-4 py-12 flex flex-col items-center justify-center space-y-8"> */}
+      <div className="min-h-screen bg-[#0B0C10] text-white flex flex-col justify-between px-4 pt-12 pb-20 sm:px-6">
+
+
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Contact Us</h1>
 
 
@@ -99,9 +110,24 @@ const Contact = () => {
             className="w-full p-2 mb-4 bg-[#1F2833] rounded"
             required
           ></textarea>
-          <button type="submit" className="bg-[#66FCF1] text-[#0B0C10] px-4 py-2 rounded w-full">
+          {/* <button type="submit" className="bg-[#66FCF1] text-[#0B0C10] px-4 py-2 rounded w-full">
             Send
-          </button>
+          </button> */}
+          <motion.button
+            whileHover={{
+              scale: 1.08,
+              boxShadow: "0 0 25px 8px rgba(0, 248, 255, 0.6)",
+              transition: { duration: 0.3, ease: "easeInOut" },
+            }}
+            whileTap={{ scale: 0.95 }}
+            type="submit"
+            className="bg-[#1B1F23] text-white px-8 py-2 rounded-full font-semibold border border-[#00F8FF] hover:bg-[#1F2A38] transition-all duration-300 mx-auto block mt-6"
+          >
+            Send
+          </motion.button>
+
+
+
         </form>
 
 
@@ -122,8 +148,12 @@ const Contact = () => {
 
 
         {/* Social Media Links */}
-        <p className="text-center">Connect with Us</p>
+        {/* <p className="text-center">Connect with Us</p>
+        <div className="flex justify-center space-x-6 mt-4"> */}
+        <p className="text-center mt-10 font-[Georgia]">Connect with Us</p>
+
         <div className="flex justify-center space-x-6 mt-4">
+
           <a href="https://www.youtube.com/@codeclubccew6359" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center focus:outline-none">
             <FaYoutube className="text-white text-2xl transition duration-300 group-hover:text-[#66FCF1] group-hover:drop-shadow-[0_0_8px_#66FCF1]" />
           </a>
