@@ -111,7 +111,7 @@ const Resources = () => {
   };
 
   return (
-    <div style={styles.body}>
+    <div section id="resources" style={styles.body}>
       <div style={styles.heading}>📖 Our Medium Blogs</div>
 
       <div style={styles.wrapper}>
