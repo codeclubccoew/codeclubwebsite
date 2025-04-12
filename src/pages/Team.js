@@ -175,7 +175,7 @@ const TeamDropdown = ({ title, members }) => {
 // Main Team component
 const Team = () => {
   return (
-    <div className="container mx-auto px-4 py-8 text-center">
+    <div section id="team" className="container mx-auto px-4 py-8 text-center">
       <h1 className="text-3xl font-bold mb-2">Meet Our Team</h1>
       <h2 className="text-xl mb-6">2024-25</h2>
 
