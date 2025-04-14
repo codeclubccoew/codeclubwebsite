@@ -8,10 +8,12 @@ import Events from './pages/Events';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Cursor from './components/Cursor';
 
 function App() {
   return (
     <Router>
+      <Cursor/>
       <NavBar />
       <Homepage />
       <About />
