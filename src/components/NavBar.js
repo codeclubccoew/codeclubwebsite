@@ -20,7 +20,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { id: 1, name: "Home", to: "home" },
+    { id: 1, name: "Home", to: "homepage" },
     { id: 2, name: "About Us", to: "about" },
     { id: 3, name: "Meet Our Team", to: "team" },
     { id: 4, name: "Events", to: "events" },
@@ -94,7 +94,7 @@ const Navbar = () => {
               {currentText}
             </motion.div>
 
-            {[1, 2, 3, 4, 5].map((i) => (
+            {[1, 2, 3, 4, 5, 6].map((i) => (
               <motion.div
                 key={i}
                 initial={{ y: "100%", x: Math.random() * 100 }}
@@ -246,7 +246,7 @@ const Navbar = () => {
                   }}
                 ></motion.div>
 
-                {[1, 2, 3, 4, 5].map((i) => (
+                {[1, 2, 3, 4, 5, 6].map((i) => (
                   <motion.div
                     key={i}
                     initial={{ y: 0, x: 0, opacity: 0 }}
