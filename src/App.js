@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
@@ -8,22 +7,37 @@ import Events from './pages/Events';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Cursor from './components/Cursor'; 
+import Landing from './pages/Landing';
 
 function App() {
-  return (
-    <Router>
+  const [showLanding, setShowLanding] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLanding(false);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showLanding) {
+    return <Landing />;
+  }
+
+ return (
+    <>
+      <Cursor />
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
+      <main className="relative z-10">
+     <Homepage />
+      <About />
+     <Team />
+     <Resources />
+      <Contact />
+      </main>
+      <Footer /> 
+    </>
+  ); 
 }
 
 export default App;
