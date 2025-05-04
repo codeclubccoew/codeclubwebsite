@@ -77,7 +77,7 @@ const Contact = () => {
   return (
     <section id="contact">
       {/* <div className="min-h-screen bg-[#0B0C10] text-white px-4 py-12 flex flex-col items-center justify-center space-y-8"> */}
-      <div className="min-h-screen bg-[#0B0C10] text-white flex flex-col justify-between px-4 pt-12 pb-20 sm:px-6">
+      <div className="min-h-[calc(100vh-80px)] w-full bg-[#0B0C10] text-white flex flex-col justify-between px-4 pt-12 pb-20 sm:px-6">
 
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Contact Us</h1>
