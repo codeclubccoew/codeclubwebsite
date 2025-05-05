@@ -3,12 +3,6 @@ import { FaYoutube, FaInstagram, FaWhatsapp, FaEnvelope, FaLinkedin, FaMedium } 
 import { IoCheckmarkCircleOutline } from "react-icons/io5"; // Success Icon
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-
-
-
-
-
-
 import emailjs from "emailjs-com"; // Import EmailJS
 
 
@@ -72,12 +66,7 @@ const Contact = () => {
       {/* <div className="min-h-screen bg-[#0B0C10] text-white px-4 py-12 flex flex-col items-center justify-center space-y-8"> */}
       <div className="min-h-[calc(100vh-80px)] w-full bg-[#0B0C10] text-white flex flex-col justify-between px-4 pt-12 pb-20 sm:px-6">
 
-
-
-
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Contact Us</h1>
-
-
+        <h1 className="text-3xl sm:text-4xl font-mono font-bold mb-8 text-center">CONTACT US</h1>
 
 
         <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
@@ -92,8 +81,6 @@ const Contact = () => {
           />
 
 
-
-
           <input
             type="email"
             name="user_email"
@@ -103,8 +90,6 @@ const Contact = () => {
             className="w-full p-2 mb-4 bg-[#1F2833] text-white rounded-2xl border border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all"
             required
           />
-
-
 
 
           <textarea
@@ -131,29 +116,6 @@ const Contact = () => {
           >
             Send
           </motion.button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </form>
 
@@ -183,18 +145,6 @@ const Contact = () => {
             </div>
           </div>
         )}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         {/* Social Media Links */}
