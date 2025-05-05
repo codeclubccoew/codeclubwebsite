@@ -91,6 +91,10 @@ const Contact = () => {
             required
           />
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
           <input
             type="email"
             name="user_email"
@@ -101,13 +105,21 @@ const Contact = () => {
             required
           />
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
           <textarea
             name="message"
             placeholder="Message"
             value={formData.message}
             onChange={handleChange}
             rows={5}
+<<<<<<< Updated upstream
             className="w-full p-2 mb-4 bg-[#1F2833] text-white rounded-2xl border border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all resize-none"
+=======
+            className="w-full p-2 mb-3 bg-[#1F2833] text-white rounded-2xl border border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all resize-none"
+>>>>>>> Stashed changes
             required
           ></textarea>
           {/* <button type="submit" className="bg-[#66FCF1] text-[#0B0C10] px-4 py-2 rounded w-full">
@@ -131,12 +143,22 @@ const Contact = () => {
 
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+
+
+
+>>>>>>> Stashed changes
         </form>
 
 
 
 
         {showModal && (
+<<<<<<< Updated upstream
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 backdrop-blur-sm px-4">
             <div className="bg-[#1F2833] p-6 rounded-2xl shadow-2xl border border-cyan-500 text-center w-full max-w-xs font-[Georgia] animate-fade-in">
               <IoCheckmarkCircleOutline className="text-[#66FCF1] text-5xl mx-auto mb-3 drop-shadow-md" />
@@ -145,6 +167,20 @@ const Contact = () => {
               <button
                 onClick={() => setShowModal(false)}
                 className="bg-[#66FCF1] text-[#0B0C10] px-4 py-2 rounded-xl font-semibold hover:bg-[#45e3da] transition-all duration-200"
+=======
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-md px-4">
+            <div className="bg-gradient-to-br from-[#0B0C10] to-[#1F2833] p-6 rounded-2xl border border-[#66FCF1] shadow-[0_0_20px_#66FCF1] w-full max-w-xs text-center animate-fade-in font-[Georgia]">
+
+              <IoCheckmarkCircleOutline className="text-[#66FCF1] text-5xl mx-auto mb-4 drop-shadow-[0_0_8px_#66FCF1]" />
+
+              <h2 className="text-2xl font-bold text-white mb-2 tracking-wide">Success!</h2>
+
+              <p className="text-sm text-gray-300 mb-5">Message sent successfully.</p>
+
+              <button
+                onClick={() => setShowModal(false)}
+                className="bg-[#66FCF1] text-[#0B0C10] px-6 py-2 rounded-lg font-semibold hover:bg-[#45e3da] transition-all duration-200 shadow-[0_0_10px_#66FCF1] hover:shadow-[0_0_15px_#45e3da]"
+>>>>>>> Stashed changes
               >
                 OK
               </button>
@@ -158,9 +194,12 @@ const Contact = () => {
 
 
 
+<<<<<<< Updated upstream
 
 
 
+=======
+>>>>>>> Stashed changes
         {/* Social Media Links */}
         {/* <p className="text-center">Connect with Us</p>
         <div className="flex justify-center space-x-6 mt-4"> */}
