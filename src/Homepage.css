@@ -8,6 +8,7 @@
   z-index: 1;
   opacity: 0.7;
   pointer-events: none;
+  background: #000000;
 }
 
 #hexagonGrid {
@@ -24,7 +25,7 @@
 /* Hexagon Grid Styles */
 .row {
   display: flex;
-  margin-top: -28px;
+  margin-top: -26px; /* Adjusted for better hexagon overlap */
 }
 
 .row:first-child {
@@ -32,15 +33,16 @@
 }
 
 .row:nth-child(even) {
-  margin-left: 50px;
+  margin-left: 50px; /* Half of hexagon width */
 }
 
 .hexagon {
   position: relative;
   width: 100px;
-  height: 110px;
-  margin: 1px;
+  height: 115px; /* height = width * √3/2 */
+  margin: 0 1px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  flex-shrink: 0;
 }
 
 .hexagon::before {
@@ -117,41 +119,41 @@
   50% { border-color: #00ffff; }
 }
 
-/* Responsive Font Sizes */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .static-text, .typewriter-text {
-    font-size: 4rem; /* 64px */
+    font-size: 4rem;
   }
-}
-
-@media (min-width: 769px) {
-  .static-text, .typewriter-text {
-    font-size: 5rem; /* 80px */
-  }
-}
-
-@media (min-width: 1024px) {
-  .static-text, .typewriter-text {
-    font-size: 6rem; /* 96px */
-  }
-}
-
-/* Mobile Optimization */
-@media (max-width: 480px) {
+  
   .hexagon {
     width: 80px;
-    height: 90px;
+    height: 92px;
   }
   
   .row {
-    margin-top: -22px;
+    margin-top: -21px;
   }
   
   .row:nth-child(even) {
     margin-left: 40px;
   }
-  
+}
+
+@media (max-width: 480px) {
   .static-text, .typewriter-text {
     font-size: 3rem;
+  }
+  
+  .hexagon {
+    width: 60px;
+    height: 69px;
+  }
+  
+  .row {
+    margin-top: -16px;
+  }
+  
+  .row:nth-child(even) {
+    margin-left: 30px;
   }
 }
