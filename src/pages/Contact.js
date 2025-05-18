@@ -20,7 +20,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
 
-
+  const [showTooltip, setShowTooltip] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
     user_name: "",
@@ -90,6 +90,9 @@ const Contact = () => {
             className="w-full p-2 mb-4 bg-[#1F2833] text-white rounded-2xl border border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all"
             required
           />
+
+
+
 
 
 
@@ -215,13 +218,23 @@ const Contact = () => {
           <a href="https://chat.whatsapp.com/CEHO7xAxE2g2rRke9RfHYo" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center focus:outline-none">
             <FaWhatsapp className="text-white text-2xl transition duration-300 group-hover:text-[#66FCF1] group-hover:drop-shadow-[0_0_8px_#66FCF1]" />
           </a>
-          <a href="mailto:codeclub@cumminscollege.in" className="group inline-flex items-center focus:outline-none">
+          <div
+            className="relative group inline-flex items-center focus:outline-none cursor-pointer"
+            onClick={() => setShowTooltip(!showTooltip)}
+            onMouseLeave={() => setShowTooltip(false)}
+          >
+            {showTooltip && (
+              <div className="absolute bottom-full mb-2 px-3 py-1 bg-[#1F2833] text-white text-sm rounded-md shadow-md border border-[#66FCF1] z-10 transition-all duration-300">
+                codeclub@cumminscollege.in
+              </div>
+            )}
             <FaEnvelope className="text-white text-2xl transition duration-300 group-hover:text-[#66FCF1] group-hover:drop-shadow-[0_0_8px_#66FCF1]" />
-          </a>
+          </div>
+
           <a href="https://www.linkedin.com/company/code-club-ccew" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center focus:outline-none">
             <FaLinkedin className="text-white text-2xl transition duration-300 group-hover:text-[#66FCF1] group-hover:drop-shadow-[0_0_8px_#66FCF1]" />
           </a>
-          <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center focus:outline-none">
+          <a href="https://medium.com/@codeclub" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center focus:outline-none">
             <FaMedium className="text-white text-2xl transition duration-300 group-hover:text-[#66FCF1] group-hover:drop-shadow-[0_0_8px_#66FCF1]" />
           </a>
         </div>
