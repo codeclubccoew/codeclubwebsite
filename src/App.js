@@ -29,11 +29,12 @@ function App() {
       <Cursor />
       <NavBar />
       <main className="relative z-10">
-        <Homepage />
-        <About />
-        <Team />
-        <Resources />
-        <Contact />
+     <Homepage />
+     <About />
+     <Team />
+     <Events />
+     <Resources />
+     <Contact />
       </main>
       <Footer />
     </div>
