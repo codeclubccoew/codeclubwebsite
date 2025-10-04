@@ -32,6 +32,7 @@ function App() {
      <Homepage />
       <About />
      <Team />
+     <Events />
      <Resources />
       <Contact />
       </main>

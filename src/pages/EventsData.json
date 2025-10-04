@@ -1,0 +1,255 @@
+[
+    { 
+      "image": "/test_image.jpg", 
+      "title": "Event 1", 
+      "description": "First event details", 
+      "date": "2021-04-15",
+      "fullDescription": "This is a comprehensive description of Event 1. It includes all the details about what happened, who participated, and what the outcomes were.",
+      "socialLinks": [
+        { "name": "Facebook", "url": "#" },
+        { "name": "Twitter", "url": "#" }
+      ]
+    },
+    { 
+      "image": "/test_image.jpg", 
+      "title": "Event 2", 
+      "description": "Second event details", 
+      "date": "2021-08-22",
+      "fullDescription": "Detailed information about Event 2. This could include the agenda, speakers, and highlights from the event.",
+      "socialLinks": [
+        { "name": "Instagram", "url": "#" },
+        { "name": "LinkedIn", "url": "#" }
+      ]
+    },
+    { 
+      "image": "/test_image.jpg", 
+      "title": "Event 3", 
+      "description": "Third event details", 
+      "date": "2022-01-10",
+      "fullDescription": "This event featured workshops and training sessions for all skill levels.",
+      "socialLinks": [
+        { "name": "Event Page", "url": "#" }
+      ]
+    },
+    { 
+      "image": "/test_image.jpg", 
+      "title": "Event 4", 
+      "description": "Fourth event details", 
+      "date": "2022-06-18",
+      "fullDescription": "Summer networking event with guest speakers and activities.",
+      "socialLinks": []
+    },
+    { 
+      "image": "/test_image.jpg", 
+      "title": "Event 5", 
+      "description": "Fifth event details", 
+      "date": "2023-02-14",
+      "fullDescription": "Annual gala celebration with awards and recognition.",
+      "socialLinks": [
+        { "name": "Facebook", "url": "#" }
+      ]
+    },
+    {
+          "image": "/test_image.jpg",
+          "title": "Flipkart Runway Mock Test",
+          "description": "Mock test for 2nd year students to prepare for Flipkart Runway challenge.",
+          "date": "2022-03-01",
+          "fullDescription": "The Flipkart Runway mock test was conducted for 2nd year students to help them prepare for the upcoming challenge in March 2022. With over 90 participants, the test provided valuable insights and preparation for the main event.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "The QUIZpicable Me!",
+          "description": "Quiz competition for first-year students with a coding round.",
+          "date": "2022-06-11",
+          "fullDescription": "Held on 11th and 12th June 2022, this quiz competition was designed to test first-year students on their coding skills and creativity. The competition included a rapid-fire MCQ round followed by a coding challenge.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Internship Opportunities Timeline",
+          "description": "Shared internship timeline with second-year students.",
+          "date": "2022-09-01",
+          "fullDescription": "In September 2022, an exciting Internship Opportunities Timeline was shared with second-year students to keep them informed about upcoming internship opportunities and their application timelines.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Code Club Recruitment Process",
+          "description": "Recruitment for new Code Club team members.",
+          "date": "2022-11-01",
+          "fullDescription": "The recruitment process for the new Code Club team began in November 2022, with over 250 applications for six positions. After careful selection, 12 talented individuals were chosen to join the team.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Counsel Connect",
+          "description": "Mentorship program connecting first-year students with third-year and BTech mentors.",
+          "date": "2023-01-01",
+          "fullDescription": "Launched in January 2023, Counsel Connect is a mentorship program that pairs first-year students with third-year and BTech students to guide them in their academic and professional journeys. Over 160 students participated in this initiative.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Weekly DSA Test Series",
+          "description": "Weekly Data Structures and Algorithms test series for all students.",
+          "date": "2023-02-01",
+          "fullDescription": "In February 2023, a weekly DSA test series was launched, focusing on various data structure and algorithm topics. The tests were designed to prepare students for internships and placements. Top performers were recognized every month.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "WEB ROOKIE Workshop",
+          "description": "Frontend development workshop and competition.",
+          "date": "2023-02-01",
+          "fullDescription": "In collaboration with LinkCode Technologies, the 'WEB ROOKIE' workshop was conducted as part of the college's technical fest 'INNOVATION'. The four-hour workshop was followed by a two-hour competition where participants created portfolio websites. Top 10 participants were awarded prizes.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Ideathon 2023",
+          "description": "Ideathon on various themes with participation from first and second-year students.",
+          "date": "2023-03-18",
+          "fullDescription": "Held in March 2023, the Ideathon featured over 30 teams competing on themes like Urban Management, Health, Education, and Governance. Winning teams were selected based on their innovative and practical solutions to the problems posed.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Flipkart Runway Mock Test",
+          "description": "Mock test for women in tech as part of Flipkart Runway initiative.",
+          "date": "2023-03-01",
+          "fullDescription": "The Flipkart Runway Mock Test, designed specifically for women in tech, was conducted as part of Flipkart's initiative. The test provided valuable preparation for women looking to enter the tech industry.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "DSA Test Series",
+          "description": "Concluding the DSA test series with additional questions and top performer announcements.",
+          "date": "2023-04-01",
+          "fullDescription": "In April 2023, the DSA test series concluded, with extra questions and solutions provided for continued learning. Top performers from the series were recognized and celebrated for their dedication and excellence.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Resume Building Session",
+          "description": "Resume building workshop for second and third-year students.",
+          "date": "2023-05-01",
+          "fullDescription": "In May 2023, a resume building session was conducted for SY and TY students, led by Ishwari Patil. The session provided valuable tips on crafting strong resumes and preparing for upcoming internships and placements.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        {
+          "image": "/test_image.jpg",
+          "title": "Ace The Case",
+          "description": "Case study competition on 'Finding Harmony through Food'.",
+          "date": "2023-05-05",
+          "fullDescription": "The 'Ace The Case' competition held in May 2023 invited 20+ teams to tackle a case study on 'Finding Harmony through Food'. Teams worked on innovative solutions, and top performers were recognized for their excellent problem-solving skills.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+        
+       
+        {
+          "image": "/test_image.jpg",
+          "title": "Code Club Recruitment Process",
+          "description": "Recruitment for new Code Club team members.",
+          "date": "2023-06-01",
+          "fullDescription": "The recruitment process for the new Code Club team began in June 2023, with over 250 applications for six positions. After careful selection, 12 talented individuals were chosen to join the team.",
+          "socialLinks": [
+            { "name": "Instagram", "url": "#" },
+            { "name": "LinkedIn", "url": "#" }
+          ]
+        },
+      
+      {
+              "image": "/Events/2024-25/orientation.png",
+              "title": "Orientation",
+              "description": "Intro session for FY & SY students.",
+              "date": "2024-10-07",
+              "fullDescription": "On 7th October 2024, we conducted our orientation session for the students in FY and SY, giving them complete guidance and a roadmap about how to get started with coding, resources and so much more! This session was greatly appreciated by the students, and they benefited so much out of the session. We also covered key strategies about how to practice coding which will help students in the years to come."
+            },
+            {
+              "image": "/Events/2024-25/orientation.png",
+              "title": "Google WE Scholar",
+              "description": "Intro to Google WE Scholar program.",
+              "date": "2024-11-13",
+              "fullDescription": "Google WE Scholar is a program initiated by TalentSprint along with Google for first-year women engineering students. On 13th November 2024, Code Club conducted a session where selected SY students shared their journey. It included a panel discussion, offering guidance on applying and succeeding in the program."
+            },
+            {
+              "image": "/events2024/event3.jpg",
+              "title": "Problem of the Week",
+              "description": "12-week coding challenge.",
+              "date": "2024-10-27",
+              "fullDescription": "A coding series initiated by Code Club, trending among Cummins students and LinkedIn! Over 670 participants took part in this 12-week marathon. It introduced coding from basics to advanced levels using platforms like Hackerrank and Leetcode. The badge system and hashtags motivated consistent learning and boosted students' online presence."
+            },
+            {
+              "image": "/events2024/event4.jpg",
+              "title": "Counsel Connect",
+              "description": "Mentorship by seniors for juniors.",
+              "date": "2025-01-03",
+              "fullDescription": "With 350+ mentees and 60+ mentors, Counsel Connect provides 5:1 personalized mentorship. Mentees from FY and SY are paired with TY and BTech mentors across branches. This initiative provides career, academic, and personal support from seniors beyond classroom learning."
+            },
+            {
+              "image": "/events2024/event5.jpg",
+              "title": "Engineering Decoded",
+              "description": "Session on research & internships.",
+              "date": "2025-01-18",
+              "fullDescription": "An online session by Ms. Harini Anand (PES University) focused on research, publications, scholarships, and remote internships for early-year students. The session ended with five students selected for 1:1 mentorships. It was highly interactive and skill-building."
+            },
+            {
+              "image": "/events2024/event6.jpg",
+              "title": "CP A to Z",
+              "description": "Intro session on CP strategies.",
+              "date": "2025-03-08",
+              "fullDescription": "On Women’s Day, 8th March 2025, guest speaker Trilasha Mazumder from NIT Silchar conducted a CP session. It covered basics, resource guides, and strategic insights. Students actively participated in a QnA session focused on contests, upsolving, and CP journeys."
+            },
+            {
+              "image": "/events2024/event7.jpg",
+              "title": "Cybersecurity 101",
+              "description": "Expert session on cyber basics.",
+              "date": "2025-03-17",
+              "fullDescription": "Held in collaboration with the Cybersecurity Club, this session introduced Cybersecurity fundamentals through expert Harshad Wadkar sir. Topics included Web Security, Reverse Engineering, Forensics, and more. Students received hands-on resources for post-session practice."
+            },
+            {
+              "image": "/events2024/event8.jpg",
+              "title": "CTF Competition",
+              "description": "Cyber quiz + CTF challenge.",
+              "date": "2025-04-05",
+              "fullDescription": "A two-round cybersecurity competition that began with an online quiz (31st March) and ended with an offline CTF round on 5th April 2025. The top 20 teams tackled real-time CTF challenges across Cryptography, OSINT, and more. 131 teams participated, and top 3 teams were declared winners."
+            }    
+  ]            
+
