@@ -24,21 +24,22 @@ function App() {
     return <Landing />;
   }
 
- return (
-    <>
+  return (
+    <div className="cursor-none">
       <Cursor />
       <NavBar />
       <main className="relative z-10">
      <Homepage />
-      <About />
+     <About />
      <Team />
      <Events />
      <Resources />
-      <Contact />
+     <Contact />
       </main>
-      <Footer /> 
-    </>
-  ); 
+      <Footer />
+    </div>
+  );
+  
 }
 
 export default App;
